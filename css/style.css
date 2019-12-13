@@ -13,3 +13,7 @@ nav{
 footer{
     background-color: silver;
 }
+
+.special-offers a{
+    color: red;
+}
