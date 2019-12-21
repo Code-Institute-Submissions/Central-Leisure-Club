@@ -1,5 +1,5 @@
 body{
-     background: url('../images/swimming-pool.jpg') no-repeat;
+     background: url('../images/swimming-pool.jpg') fixed no-repeat;
      -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -12,8 +12,11 @@ nav{
 
 footer{
     background-color: silver;
+    top: 400px;
+    margin-bottom: 0;
 }
 
 .special-offers a{
     color: red;
+    background-color: pink;
 }
