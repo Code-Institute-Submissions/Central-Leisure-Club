@@ -10,6 +10,18 @@ nav{
     background-color: blue;
 }
 
+.horizontal-bar{
+border: 3px solid white;
+border-radius: 1px;
+}
+@media(min-width:967px) {
+hr .horizontal-bar {
+display: none;
+    }
+}
+
+
+
 footer{
     background-color: silver;
     top: 400px;
