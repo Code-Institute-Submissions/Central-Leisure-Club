@@ -10,6 +10,16 @@ nav{
     background-color: blue;
 }
 
+.section-1-heading{
+    padding-top: 75px;
+}
+.ameninties-design{
+    background-color: gray;
+    border-radius: 15px;
+    border: 10px;
+    text-size-adjust: 100%;
+}
+
 .horizontal-bar{
 border: 3px solid white;
 border-radius: 1px;
