@@ -15,9 +15,10 @@ nav{
 }
 .ameninties-design{
     background-color: gray;
-    border-radius: 15px;
-    border: 10px;
+    border-radius: 25px;
+    margin: 10px 5px;
     text-size-adjust: 100%;
+    position: relative;
 }
 
 .horizontal-bar{
