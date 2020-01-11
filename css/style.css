@@ -127,10 +127,20 @@ border-color: #f16c6b;
     padding-top: 75px;
 }
 
+<!--
 img{
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
-    max-width: 50%;
-    margin: 10px;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
 }
+-->
+
+.centre-img{
+text-align: center;
+display: block;
+}
+
