@@ -16,15 +16,15 @@ nav{
 }
 
 .paragraph-home-page{
-    font-size: 30px;
-    padding: 30px 5px;
+    font-size: 20px;
+    padding: 30px 30px;
 }
 .ameninties-design{
     text-align: center;
     background-color: rgba(60, 60, 60, 0.6);
     border-radius: 25px;
     margin: 5px 5px;
-    text-size-adjust: 100%;
+    width: 250px;
     
 }
 
@@ -127,7 +127,7 @@ border-color: #f16c6b;
     padding-top: 75px;
 }
 
-<!--
+
 img{
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -137,10 +137,18 @@ img{
     margin-left: auto;
     display: block;
 }
--->
+
 
 .centre-img{
 text-align: center;
 display: block;
+}
+
+.special-offers-headings{
+    text-align: center;
+    background-color: rgba(60, 60, 60, 0.6);
+    border-radius: 25px;
+    margin: 5px 5px;
+    text-size-adjust: 100%;  
 }
 
