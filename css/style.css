@@ -1,5 +1,5 @@
 body{
-     background: url('../images/swimming-pool.jpg') fixed no-repeat;
+     background: url('../images/pic11.jpg') fixed no-repeat;
      -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -19,12 +19,18 @@ nav{
     font-size: 20px;
     padding: 30px 30px;
 }
-.ameninties-design{
+.ameninties-blocks{
     text-align: center;
+    justify-content: center;
+}
+
+.ameninties-design{
+    
     background-color: rgba(60, 60, 60, 0.6);
     border-radius: 25px;
     margin: 5px 5px;
     width: 250px;
+    display: inline-block;
     
 }
 
@@ -127,7 +133,6 @@ border-color: #f16c6b;
     padding-top: 75px;
 }
 
-
 img{
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -137,7 +142,6 @@ img{
     margin-left: auto;
     display: block;
 }
-
 
 .centre-img{
 text-align: center;
@@ -151,4 +155,39 @@ display: block;
     margin: 5px 5px;
     text-size-adjust: 100%;  
 }
+
+#gallery-photos {
+    transform-origin:top left;
+    position: absolute;
+    right: 0;
+    left: 12%;
+    width: auto;
+    max-width:11%;
+    margin: auto;
+    column-count: 4;
+}
+
+#gallery-photos img{
+    width: 100%;
+}
+
+.rotate90 {
+ -webkit-transform: rotate(90deg);
+ -moz-transform: rotate(90deg);
+ -o-transform: rotate(90deg);
+ -ms-transform: rotate(90deg);
+ transform: rotate(90deg);
+ }
+
+@media screen and (max-width: 943px) {
+    #gallery-photos{
+        column-count:3;
+    }
+}
+
+ @media screen and (max-width: 800px) {
+    #gallery-photos {
+     column-count:2;
+    }
+  }
 
