@@ -1,23 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter&display=swap');
+
 body{
-     background: url('../images/pic11.jpg') fixed no-repeat;
+     background: url('../images/poolbackground.jpg') fixed no-repeat;
      -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    font-family: 'Bitter', serif;
+}
+
+/* Responsive background photo layout  */
+@media screen and (max-width: 768px) {
+  body {
+      background: url('../images/pool1.jpg') fixed no-repeat;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+  }
 }
 
 nav{
-    background-color: blue;
+    background-color: #073A59;
     position: center;
-}
-
-.section-1-heading{
-    padding-top: 75px;
+    color: #fff;
 }
 
 .paragraph-home-page{
     font-size: 20px;
     padding: 30px 30px;
+    color: #fff;
 }
 .ameninties-blocks{
     text-align: center;
@@ -31,6 +44,7 @@ nav{
     margin: 5px 5px;
     width: 250px;
     display: inline-block;
+    color: #fff;
     
 }
 
@@ -47,18 +61,19 @@ display: none;
 
 
 footer{
-    background-color: silver;
+    background-color: #D9C6BA;
     top: 400px;
     margin-bottom: 0;
+    padding-top: 10px;
 }
 
 .special-offers a{
     color: red;
-    background-color: pink;
+    background-color: #7997F2;
 }
 
 .section-form{
-    height: 900px;
+    height: 1000px;
 
 }
 
@@ -70,7 +85,7 @@ footer{
     max-width: 400px;
     position: absolute;
     padding: 30px 30px 30px 30px;
-    left: 10%;
+    left: 2%;
   }
   
   .signup-form h2{
@@ -127,67 +142,120 @@ border-color: #f16c6b;
 .highlight{
     background-color: rgba(60, 60, 60, 0.6);
     border-radius: 25px;
+    width: auto;
+    color: #fff
 }
 
 #gallery-photos{
+    padding-bottom: 5px;
     padding-top: 75px;
-}
-
-img{
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 50%;
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
+    
 }
 
 .centre-img{
-text-align: center;
-display: block;
+    text-align: center;
+    display: block;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section-1-heading{
+    
+    background-color: rgba(60, 60, 60, 0.6);
+    border-radius: 25px;
+    width: 370px;
+    margin: auto;
+    color: #fff;
+    margin-top: 75px;
+    
+}
+.section-heading-special-offers{
+    margin-top: 75px;
+}
+
+.special-offers-headings1{
+    text-align: center;
+    background-color: rgba(60, 60, 60, 0.6);
+    border-radius: 15px;
+    margin: auto;
+    color: #fff;
+    width: auto;
 }
 
 .special-offers-headings{
     text-align: center;
     background-color: rgba(60, 60, 60, 0.6);
-    border-radius: 25px;
-    margin: 5px 5px;
-    text-size-adjust: 100%;  
-}
-
-#gallery-photos {
-    transform-origin:top left;
-    position: absolute;
-    right: 0;
-    left: 12%;
-    width: auto;
-    max-width:11%;
+    border-radius: 15px;
     margin: auto;
-    column-count: 4;
+    color: #fff;
+    width: auto;   
 }
 
-#gallery-photos img{
-    width: 100%;
+  .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
 }
 
-.rotate90 {
- -webkit-transform: rotate(90deg);
- -moz-transform: rotate(90deg);
- -o-transform: rotate(90deg);
- -ms-transform: rotate(90deg);
- transform: rotate(90deg);
- }
-
-@media screen and (max-width: 943px) {
-    #gallery-photos{
-        column-count:3;
-    }
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
 }
 
- @media screen and (max-width: 800px) {
-    #gallery-photos {
-     column-count:2;
-    }
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
   }
+}
 
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.social-links i{
+    font-size: 250%;
+    margin: 1%;
+    padding: 20%;
+    color: #073A59;
+}
+
+.membership-heading{
+    background-color: rgba(60, 60, 60, 0.6);
+    border-radius: 15px;
+    margin: auto;
+    color: #fff;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.table-style{
+    color: #fff;
+}
+
+.opening-hours{
+    color:#fff;
+}
+
+.table-style{
+    color:#fff;
+}
