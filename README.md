@@ -52,7 +52,11 @@ In the Opening Hours and Membership page, I used a bootstrap responsive hover ta
 
 In the Contact Us page, I got the idea of the form box from "I Love Running" website from the LMS on Code Institute.
 
-In the Gallery page, I used bootstrap image gallery code. https://www.w3schools.com/css/css_image_gallery.asp
+In the Gallery page, I used bootstrap image gallery code. https://www.w3schools.com/css/css_image_gallery.asp<br>
+
+I used font awesome for the contact details in the footer section.<br>
+
+I used google fonts to change the font to bitter.<br>
 
 <h2>Features Left to Implement</h2>
 To post the form to proper location as it is only sent to code institute website at the moment (possibly requires javascript - next module)<br>
@@ -67,12 +71,19 @@ To increase image size when you hover over it. (possibly requires javascript - n
 <h1>Testing</h1>
 The user (be to existing member/hotel guest or prospective member)
 has all the required information in the website and if they require 
-further information or a query they can use the form to ask a question.
-All links in all webpages are tested and working properly. In the contact 
-us page, the form has been tested. If any box is blank it will inform you if 
-you press the submit button. It will make sure an email is inputted correctly i.e.
-to include the @ symbol and characters before and after it. The claer button tested 
-and working properly.
+further information or a query they can use the form to ask a question.<br>
+All links in all webpages are tested and working properly. All external links 
+will open in a new tab using 'target="_blank"<br> In the contact 
+us page, if you try to submit the contact form with an invalid email address, 
+there will be an error noting the invalid email address. Furthermore, the 'required' 
+attribute is added to the 'name,' 'email,' and 'message' fields, so if those fields 
+are not filled in, the form will not submit. If all field are valid, the page will redirect to code 
+institute page.<br>
+This site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on 
+multiple mobile devices (iPhone7: Chrome and Safari, iPad, Samsung Galaxy) to ensure compatibility 
+and responsiveness. During the testing phase, I realized that background image: fixed was not 
+compatible with iOS browsers. On Chrome and Safari in iOS, the background photo appeared zoomed-in 
+and blurry and was not a fixed image while scrolling. I went to tutor support, but they did not have a solution for this error.
 
 <h1>Deployment</h1>
 <p>This site is hosted using GitHub pages, deployed directly from the master branch. 
@@ -80,7 +91,7 @@ The deployed site will update automatically upon new commits to the master branc
 In order for the site to deploy correctly on GitHub pages, the landing page must be 
 named index.html. To run locally, you can clone this repository directly into the 
 editor of your choice by pasting git clone 
-https://8000-ecf39446-98e0-40d2-a8ad-7c996760c341.ws-eu01.gitpod.io/special-offers.html 
+https://gareth1980.github.io/Central-Leisure-Club/ 
 into your terminal. To cut ties with this GitHub repository, type git remote rm origin 
 into the terminal.</p>
 
