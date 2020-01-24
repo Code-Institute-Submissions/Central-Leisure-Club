@@ -29,31 +29,34 @@ I did not want all the information on one webpage as I felt there would be too m
  on a mobile phone device.</p>
 
 <h2>Wireframes</h2>
-<a href="../wireframes/homepage.jpg">Home Page Wireframe</a><br>
-<a href="../wireframes/contactuspage.jpg">Contact Us Page Wireframe</a><br>
-<a href="../wireframes/gallery.jpg">Gallery Page Wireframe</a><br>
-<a href="../wireframes/membershippage.jpg">Membership Page Wireframe</a><br>
-<a href="../wireframes/openinghrspage.jpg">Opening Hours and Class Timetable Wireframe</a><br>
-<a href="../wireframes/specialofferspage.jpg">Special Offers Page Wireframe</a>
+<a target="_blank" href="../wireframes/homepage.jpg">Home Page Wireframe</a><br>
+<a target="_blank" href="../wireframes/contactuspage.jpg">Contact Us Page Wireframe</a><br>
+<a target="_blank" href="../wireframes/gallery.jpg">Gallery Page Wireframe</a><br>
+<a target="_blank" href="../wireframes/membershippage.jpg">Membership Page Wireframe</a><br>
+<a target="_blank" href="../wireframes/openinghrspage.jpg">Opening Hours and Class Timetable Wireframe</a><br>
+<a target="_blank" href="../wireframes/specialofferspage.jpg">Special Offers Page Wireframe</a>
 
 <h2>Background Image and Colours</h2>
-<p>I used the same background image throughout the web pages to keep the website consistant. I used https://color.adobe.com/create/color-wheel/ 
+<p>I used the same background image for phones and another background image for screens larger than 768px throughout the web pages to keep the website consistant. I used https://color.adobe.com/create/color-wheel/ 
 and selected the background image and this website picked out distinct colours from the image and used these colours throughout the web pages.</p>
 
 <h1>Features</h1>
+In all the webpages, I have used a fixed navigation bar at the top of each page with a hamburger menu icon for smaller screens using bootstrap. 
+I feel this will be easy for users to navigate to each webpage within the site. In the footer, which again is the same for all webpages, due to 
+the estential information that I feel the users require is responsive with 4 columns for largers screens, 2 columns for medium screens and 1 
+column for smaller screens.<br>
 
-#
-#
-#
-#
+In the home page, I have written a general overview of the leisure centre and have listed the amenities which is again responsive.<br>
 
+In the Opening Hours and Membership page, I used a bootstrap responsive hover table which scrolls horizontally on smaller screens. https://www.w3schools.com/bootstrap/bootstrap_tables.asp<br>
 
+In the Contact Us page, I got the idea of the form box from "I Love Running" website from the LMS on Code Institute.
 
+In the Gallery page, I used bootstrap image gallery code. https://www.w3schools.com/css/css_image_gallery.asp
 
-<h1></h1>
-
-
-
+<h2>Features Left to Implement</h2>
+To post the form to proper location as it is only sent to code institute website at the moment (possibly requires javascript - next module)<br>
+To increase image size when you hover over it. (possibly requires javascript - next module)
 <h1>Technologies</h1>
 <ol>
 <li>HTML</li>
@@ -62,10 +65,14 @@ and selected the background image and this website picked out distinct colours f
 </ol>
 
 <h1>Testing</h1>
-
-#
-#
-#
+The user (be to existing member/hotel guest or prospective member)
+has all the required information in the website and if they require 
+further information or a query they can use the form to ask a question.
+All links in all webpages are tested and working properly. In the contact 
+us page, the form has been tested. If any box is blank it will inform you if 
+you press the submit button. It will make sure an email is inputted correctly i.e.
+to include the @ symbol and characters before and after it. The claer button tested 
+and working properly.
 
 <h1>Deployment</h1>
 <p>This site is hosted using GitHub pages, deployed directly from the master branch. 
@@ -86,7 +93,7 @@ and leaflets that they had.</p>
 
 <h2>Media</h2>
 <p>All photos of the gym and swimming pool were taken by myself. The photos regarding the Christmas Opening times, 
-the special membership offers were taken from their facebook page (permission given).</p>
+the special membership offers were taken from their facebook page (permission given by leisure centre manager).</p>
 
 <h2>Acknowledgements</h2>
 

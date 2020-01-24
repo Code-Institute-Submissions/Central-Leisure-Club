@@ -1,3 +1,4 @@
+/* To amend font using google fonts  */
 @import url('https://fonts.googleapis.com/css?family=Bitter&display=swap');
 
 /* Body styling including fixed background image and font*/
@@ -24,11 +25,23 @@ body{
   }
 }
 
+/* Navigation Bar and dropdown menu styling */
+
 nav{
     background-color: #073A59;
     position: center;
     color: #fff;
 }
+
+.special-offers a{
+    background-color: #7997F2;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #fff;
+
+}
+
+/* Home page main section styling */
 
 .paragraph-home-page{
     font-size: 20px;
@@ -46,9 +59,7 @@ nav{
     justify-content: center;
     margin-bottom: 10px;
 }
-
 .ameninties-heading{
-    
     background-color: rgba(60, 60, 60, 0.6);
     border-radius: 25px;
     width: 370px;
@@ -59,9 +70,7 @@ nav{
     border-style: solid;
     border-color: #fff;
 }
-
 .ameninties-design{
-    
     background-color: rgba(60, 60, 60, 0.6);
     border-radius: 25px;
     margin: 5px 5px;
@@ -71,9 +80,25 @@ nav{
     border-width: 1px;
     border-style: solid;
     border-color: #fff;
-    
 }
 
+/* Footer styling and responsive sections in footer */
+
+footer{
+    background-color: #D9C6BA;
+    top: 400px;
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+.social-links i{
+    font-size: 250%;
+    margin: 1%;
+    padding: 20%;
+    color: #073A59;
+}
+.list-inline-item{
+    margin: 10px 20px 5px 20px;
+}
 .horizontal-bar{
 border: 3px solid white;
 border-radius: 1px;
@@ -84,25 +109,11 @@ display: none;
     }
 }
 
-
-
-footer{
-    background-color: #D9C6BA;
-    top: 400px;
-    margin-bottom: 0;
-    padding-top: 10px;
-}
-
-.special-offers a{
-    color: red;
-    background-color: #7997F2;
-}
+/* Contact Us page styling */
 
 .section-form{
     height: 1000px;
-
 }
-
 .signup-form{
     margin-top: 150px;
     margin-bottom: 50px;
@@ -113,12 +124,10 @@ footer{
     padding: 30px 30px 30px 30px;
     left: 2%;
   }
-  
   .signup-form h2{
     color: #fafafa;
     margin-bottom: 20px;
   }
-
 .text-input{
   background-color: transparent;
   color: #fafafa;
@@ -128,12 +137,10 @@ footer{
   border: solid 1px #fafafa;
   border-radius: 2px;
 }
-
 .text-input:hover{
 border-color: #f16c6b;
   }
-
-  .form-control{
+.form-control{
   background-color: transparent;
   color: #fafafa;
   width: 100%;
@@ -142,12 +149,10 @@ border-color: #f16c6b;
   border: solid 1px #fafafa;
   border-radius: 2px;
 }
-
 .form-control:hover{
 border-color: #f16c6b;
   }
-  
-.join-button{
+  .join-button{
   margin-top: 20px;
   border-radius: 2px;
   padding: 15px 32px 15px 32px;
@@ -161,6 +166,8 @@ border-color: #f16c6b;
   background-color: #fafafa;
   color: #f16c6b;
 }
+
+/*Membership page styling */
 
 .section1-membership{
     padding-top: 75px;
@@ -180,17 +187,34 @@ border-color: #f16c6b;
     margin: auto;
     margin-bottom: 10px;
 }
+  .membership-heading{
+    background-color: rgba(60, 60, 60, 0.6);
+    border-radius: 15px;
+    margin: auto;
+    color: #fff;
+    width: 370px;
+    margin-bottom: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff;
+}
 
+/* Gallery page styling and responsive layout of photos 4 columns/2 columns/1 column */
+
+.gallery-img{
+    border-width: 2px;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 5%;
+}
 #gallery-photos{
     padding-bottom: 10px;
     padding-top: 60px;
-    
-}
-
+    }
 .centre-img{
     text-align: center;
     display: block;
-    border: 1px solid #ddd;
+    border: 2px solid #fff;
     border-radius: 4px;
     padding: 5px;
     width: 60%;
@@ -199,48 +223,7 @@ border-color: #f16c6b;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
-.section-1-heading{
-    
-    background-color: rgba(60, 60, 60, 0.6);
-    border-radius: 25px;
-    width: 370px;
-    margin: auto;
-    color: #fff;
-    margin-top: 75px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #fff;
-}
-.section-heading-special-offers{
-    margin-top: 75px;
-}
-
-.special-offers-headings1{
-    text-align: center;
-    background-color: rgba(60, 60, 60, 0.6);
-    border-radius: 15px;
-    margin: auto;
-    color: #fff;
-    width: 370px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #fff;
-}
-
-.special-offers-headings{
-    text-align: center;
-    background-color: rgba(60, 60, 60, 0.6);
-    border-radius: 15px;
-    margin: auto;
-    color: #fff;
-    width: 370px; 
-    border-width: 1px;
-    border-style: solid;
-    border-color: #fff;  
-}
-
-  .row {
+.row {
   display: flex;
   flex-wrap: wrap;
   padding: 0px 4px;
@@ -275,37 +258,52 @@ border-color: #f16c6b;
   }
 }
 
-.social-links i{
-    font-size: 250%;
-    margin: 1%;
-    padding: 20%;
-    color: #073A59;
-}
+/* Section heading styling */
 
-.membership-heading{
+.section-1-heading{
     background-color: rgba(60, 60, 60, 0.6);
-    border-radius: 15px;
+    border-radius: 25px;
+    width: 370px;
     margin: auto;
     color: #fff;
-    width: 370px;
-    margin-bottom: 20px;
+    margin-top: 75px;
     border-width: 1px;
     border-style: solid;
     border-color: #fff;
 }
 
+/* Special Offers page styling */
+
+.section-heading-special-offers{
+    margin-top: 75px;
+}
+.special-offers-headings1{
+    text-align: center;
+    background-color: rgba(60, 60, 60, 0.6);
+    border-radius: 15px;
+    margin: auto;
+    color: #fff;
+    width: 370px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff;
+}
+.special-offers-headings{
+    text-align: center;
+    background-color: rgba(60, 60, 60, 0.6);
+    border-radius: 15px;
+    margin: auto;
+    color: #fff;
+    width: 370px; 
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff;  
+}
+
+/* Change colour of text in tables */
 .table-style{
     color: #fff;
     }
-
-
 .opening-hours{
     color:#fff;
-}
-
-.gallery-img{
-    border-width: 2px;
-    border-style: solid;
-    border-color: #fff;
-    border-radius: 5%;
 }
