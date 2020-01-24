@@ -44,7 +44,7 @@ and selected the background image and this website picked out distinct colours f
 In all the webpages, I have used a fixed navigation bar at the top of each page with a hamburger menu icon for smaller screens using bootstrap. 
 I feel this will be easy for users to navigate to each webpage within the site. In the footer, which again is the same for all webpages, due to 
 the estential information that I feel the users require is responsive with 4 columns for largers screens, 2 columns for medium screens and 1 
-column for smaller screens.<br>
+column for smaller screens. Also I included an Iframe for google maps using website https://www.embedgooglemap.net/<br>
 
 In the home page, I have written a general overview of the leisure centre and have listed the amenities which is again responsive.<br>
 
