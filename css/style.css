@@ -1,19 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Bitter&display=swap');
 
+/* Body styling including fixed background image and font*/
 body{
      background: url('../images/poolbackground.jpg') fixed no-repeat;
      -webkit-background-size: cover;
+     background-attachment: fixed;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     font-family: 'Bitter', serif;
 }
 
-/* Responsive background photo layout  */
+/* Responsive background image for phones */
 @media screen and (max-width: 768px) {
   body {
       background: url('../images/pool1.jpg') fixed no-repeat;
      -webkit-background-size: cover;
+      background-attachment: fixed;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
@@ -32,9 +35,29 @@ nav{
     padding: 30px 30px;
     color: #fff;
 }
+
+#contact-us{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
 .ameninties-blocks{
     text-align: center;
     justify-content: center;
+    margin-bottom: 10px;
+}
+
+.ameninties-heading{
+    
+    background-color: rgba(60, 60, 60, 0.6);
+    border-radius: 25px;
+    width: 370px;
+    margin: auto;
+    color: #fff;
+    margin-top: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff;
 }
 
 .ameninties-design{
@@ -45,6 +68,9 @@ nav{
     width: 250px;
     display: inline-block;
     color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff;
     
 }
 
@@ -139,16 +165,25 @@ border-color: #f16c6b;
 .section1-membership{
     padding-top: 75px;
 }
+
+.membership-prices{
+    color: #fff;
+}
 .highlight{
     background-color: rgba(60, 60, 60, 0.6);
     border-radius: 25px;
-    width: auto;
-    color: #fff
+    width: 370px;
+    color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff;
+    margin: auto;
+    margin-bottom: 10px;
 }
 
 #gallery-photos{
-    padding-bottom: 5px;
-    padding-top: 75px;
+    padding-bottom: 10px;
+    padding-top: 60px;
     
 }
 
@@ -158,7 +193,7 @@ border-color: #f16c6b;
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
-    width: 80%;
+    width: 60%;
     margin-right: auto;
     margin-left: auto;
     margin-top: 20px;
@@ -173,7 +208,9 @@ border-color: #f16c6b;
     margin: auto;
     color: #fff;
     margin-top: 75px;
-    
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff;
 }
 .section-heading-special-offers{
     margin-top: 75px;
@@ -185,7 +222,10 @@ border-color: #f16c6b;
     border-radius: 15px;
     margin: auto;
     color: #fff;
-    width: auto;
+    width: 370px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff;
 }
 
 .special-offers-headings{
@@ -194,20 +234,23 @@ border-color: #f16c6b;
     border-radius: 15px;
     margin: auto;
     color: #fff;
-    width: auto;   
+    width: 370px; 
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff;  
 }
 
   .row {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 4px;
+  padding: 0px 4px;
 }
 
 /* Create four equal columns that sits next to each other */
 .column {
   flex: 25%;
   max-width: 25%;
-  padding: 0 4px;
+  padding: 0px 4px;
 }
 
 .column img {
@@ -244,18 +287,25 @@ border-color: #f16c6b;
     border-radius: 15px;
     margin: auto;
     color: #fff;
-    width: auto;
+    width: 370px;
     margin-bottom: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff;
 }
 
 .table-style{
     color: #fff;
-}
+    }
+
 
 .opening-hours{
     color:#fff;
 }
 
-.table-style{
-    color:#fff;
+.gallery-img{
+    border-width: 2px;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 5%;
 }
