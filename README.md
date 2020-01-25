@@ -69,21 +69,23 @@ To increase image size when you hover over it. (possibly requires javascript - n
 </ol>
 
 <h1>Testing</h1>
-The user (be to existing member/hotel guest or prospective member)
+The user (be it existing member/hotel guest or prospective member)
 has all the required information in the website and if they require 
 further information or a query they can use the form to ask a question.<br>
 All links in all webpages are tested and working properly. All external links 
 will open in a new tab using 'target="_blank"<br> In the contact 
 us page, if you try to submit the contact form with an invalid email address, 
 there will be an error noting the invalid email address. Furthermore, the 'required' 
-attribute is added to the 'name,' 'email,' and 'message' fields, so if those fields 
+attribute is added to the 'name,' 'email', 'reply by' and 'message' fields, so if those fields 
 are not filled in, the form will not submit. If all field are valid, the page will redirect to code 
 institute page.<br>
 This site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on 
 multiple mobile devices (iPhone7: Chrome and Safari, iPad, Samsung Galaxy) to ensure compatibility 
 and responsiveness. During the testing phase, I realized that background image: fixed was not 
-compatible with iOS browsers. On Chrome and Safari in iOS, the background photo appeared zoomed-in 
+compatible with iphone and samsung browsers. On Chrome and Safari in iOS, the background photo appeared zoomed-in 
 and blurry and was not a fixed image while scrolling. I went to tutor support, but they did not have a solution for this error.
+Background image: fixed, apparently costs a lot to mobile browsers, so it's been disabled. I changed the the background image to a background color for small screen sizes.
+
 
 <h1>Deployment</h1>
 <p>This site is hosted using GitHub pages, deployed directly from the master branch. 
@@ -107,7 +109,7 @@ and leaflets that they had.</p>
 the special membership offers were taken from their facebook page (permission given by leisure centre manager).</p>
 
 <h2>Acknowledgements</h2>
-
+Special thanks to the staff of the Central Leisure Centre for all the information given to me and allowing me to take the photos.
 
 
 
