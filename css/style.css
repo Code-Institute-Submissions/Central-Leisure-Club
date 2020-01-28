@@ -58,7 +58,7 @@ nav{
 }
 .ameninties-heading{
     background-color: rgba(60, 60, 60, 0.6);
-    border-radius: 25px;
+    border-radius: 20px;
     width: 370px;
     margin: auto;
     color: #fff;
@@ -120,6 +120,7 @@ display: none;
     position: absolute;
     padding: 30px 30px 30px 30px;
     left: 2%;
+    border-radius: 20px;
   }
   .signup-form h2{
     color: #fafafa;
@@ -175,7 +176,7 @@ border-color: #073A59;
 }
 .highlight{
     background-color: rgba(60, 60, 60, 0.6);
-    border-radius: 25px;
+    border-radius: 20px;
     width: 370px;
     color: #fff;
     border-width: 1px;
@@ -186,7 +187,7 @@ border-color: #073A59;
 }
   .membership-heading{
     background-color: rgba(60, 60, 60, 0.6);
-    border-radius: 15px;
+    border-radius: 20px;
     margin: auto;
     color: #fff;
     width: 370px;
@@ -259,7 +260,7 @@ border-color: #073A59;
 
 .section-1-heading{
     background-color: rgba(60, 60, 60, 0.6);
-    border-radius: 25px;
+    border-radius: 20px;
     width: 370px;
     margin: auto;
     color: #fff;
@@ -277,7 +278,7 @@ border-color: #073A59;
 .special-offers-headings1{
     text-align: center;
     background-color: rgba(60, 60, 60, 0.6);
-    border-radius: 15px;
+    border-radius: 20px;
     margin: auto;
     color: #fff;
     width: 370px;
@@ -288,7 +289,7 @@ border-color: #073A59;
 .special-offers-headings{
     text-align: center;
     background-color: rgba(60, 60, 60, 0.6);
-    border-radius: 15px;
+    border-radius: 20px;
     margin: auto;
     color: #fff;
     width: 370px; 

@@ -30,7 +30,7 @@ I did not want all the information on one webpage as I felt there would be too m
 
 <h2>Wireframes</h2>
 <a target="_blank" href="../wireframes/homepage.jpg">Home Page Wireframe</a><br>
-<a target="_blank" href="../wireframes/contactuspage.jpg">Contact Us Page Wireframe</a><br>
+<a target="_blank" href="https://github.com/Gareth1980/Central-Leisure-Club/blob/master/wireframes/contactuspage.jpg">Contact Us Page Wireframe</a><br>
 <a target="_blank" href="../wireframes/gallery.jpg">Gallery Page Wireframe</a><br>
 <a target="_blank" href="../wireframes/membershippage.jpg">Membership Page Wireframe</a><br>
 <a target="_blank" href="../wireframes/openinghrspage.jpg">Opening Hours and Class Timetable Wireframe</a><br>
