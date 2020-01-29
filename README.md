@@ -86,6 +86,7 @@ and responsiveness. I also used http://www.responsinator.com/ to test for respon
 compatible with iphone and samsung browsers. On Chrome and Safari in iOS, the background photo appeared zoomed-in 
 and blurry and was not a fixed image while scrolling. I went to tutor support, but they did not have a solution for this error.
 Background image: fixed, apparently costs a lot to mobile browsers, so it's been disabled per www.stackoverflow.com. I changed the the background image to a background color for small screen sizes.
+I used the website https://validator.w3.org/ to test for any code errors. All errors now corrected.
 
 
 <h1>Deployment</h1>
