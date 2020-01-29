@@ -8,7 +8,7 @@ will have the fixed naigation bar with the dropdown menu for ease of use. Also a
 same footer which includes contact information, location using google maps, opening hours and social media links.</p>
 
 <h1>Demo</h1>
-<p>A live demo can be found <a href="https://8000-ecf39446-98e0-40d2-a8ad-7c996760c341.ws-eu01.gitpod.io/">here.</a></p>
+<p>A live demo can be found <a target="_blank" href="https://gareth1980.github.io/Central-Leisure-Club/">here.</a></p>
 
 <h1>UX</h1>
 <h3>User Stories</h3>
@@ -29,12 +29,12 @@ I did not want all the information on one webpage as I felt there would be too m
  on a mobile phone device.</p>
 
 <h2>Wireframes</h2>
-<a target="_blank" href="../wireframes/homepage.jpg">Home Page Wireframe</a><br>
+<a target="_blank" href="https://github.com/Gareth1980/Central-Leisure-Club/blob/master/wireframes/homepage.jpg">Home Page Wireframe</a><br>
 <a target="_blank" href="https://github.com/Gareth1980/Central-Leisure-Club/blob/master/wireframes/contactuspage.jpg">Contact Us Page Wireframe</a><br>
-<a target="_blank" href="../wireframes/gallery.jpg">Gallery Page Wireframe</a><br>
-<a target="_blank" href="../wireframes/membershippage.jpg">Membership Page Wireframe</a><br>
-<a target="_blank" href="../wireframes/openinghrspage.jpg">Opening Hours and Class Timetable Wireframe</a><br>
-<a target="_blank" href="../wireframes/specialofferspage.jpg">Special Offers Page Wireframe</a>
+<a target="_blank" href="https://github.com/Gareth1980/Central-Leisure-Club/blob/master/wireframes/gallerypage.jpg">Gallery Page Wireframe</a><br>
+<a target="_blank" href="https://github.com/Gareth1980/Central-Leisure-Club/blob/master/wireframes/membershippage.jpg">Membership Page Wireframe</a><br>
+<a target="_blank" href="https://github.com/Gareth1980/Central-Leisure-Club/blob/master/wireframes/openinghrspage.jpg">Opening Hours and Class Timetable Wireframe</a><br>
+<a target="_blank" href="https://github.com/Gareth1980/Central-Leisure-Club/blob/master/wireframes/specialofferspage.jpg">Special Offers Page Wireframe</a>
 
 <h2>Background Image and Colours</h2>
 <p>I used the same background image for phones and another background image for screens larger than 768px throughout the web pages to keep the website consistant. I used https://color.adobe.com/create/color-wheel/ 
@@ -48,7 +48,7 @@ column for smaller screens. Also I included an Iframe for google maps using webs
 
 In the home page, I have written a general overview of the leisure centre and have listed the amenities which is again responsive.<br>
 
-In the Opening Hours and Membership page, I used a bootstrap responsive hover table which scrolls horizontally on smaller screens. https://www.w3schools.com/bootstrap/bootstrap_tables.asp<br>
+In the Opening Hours and Membership page, I used a bootstrap responsive hover table and strip row table which scrolls horizontally on smaller screens. https://www.w3schools.com/bootstrap/bootstrap_tables.asp<br>
 
 In the Contact Us page, I got the idea of the form box from "I Love Running" website from the LMS on Code Institute.
 
@@ -60,7 +60,8 @@ I used google fonts to change the font to bitter.<br>
 
 <h2>Features Left to Implement</h2>
 To post the form to proper location as it is only sent to code institute website at the moment (possibly requires javascript - next module)<br>
-To increase image size when you hover over it. (possibly requires javascript - next module)
+To increase image size when you hover over it. (possibly requires javascript - next module)<br>
+Possibly set up an online booking system to book classes, swimming lessons etc.
 <h1>Technologies</h1>
 <ol>
 <li>HTML</li>
@@ -81,10 +82,10 @@ are not filled in, the form will not submit. If all field are valid, the page wi
 institute page.<br>
 This site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on 
 multiple mobile devices (iPhone7: Chrome and Safari, iPad, Samsung Galaxy) to ensure compatibility 
-and responsiveness. During the testing phase, I realized that background image: fixed was not 
+and responsiveness. I also used http://www.responsinator.com/ to test for responsiveness. During the testing phase, I realized that background image: fixed was not 
 compatible with iphone and samsung browsers. On Chrome and Safari in iOS, the background photo appeared zoomed-in 
 and blurry and was not a fixed image while scrolling. I went to tutor support, but they did not have a solution for this error.
-Background image: fixed, apparently costs a lot to mobile browsers, so it's been disabled. I changed the the background image to a background color for small screen sizes.
+Background image: fixed, apparently costs a lot to mobile browsers, so it's been disabled per www.stackoverflow.com. I changed the the background image to a background color for small screen sizes.
 
 
 <h1>Deployment</h1>
@@ -93,7 +94,7 @@ The deployed site will update automatically upon new commits to the master branc
 In order for the site to deploy correctly on GitHub pages, the landing page must be 
 named index.html. To run locally, you can clone this repository directly into the 
 editor of your choice by pasting git clone 
-https://gareth1980.github.io/Central-Leisure-Club/ 
+https://gareth1980.github.io/Central-Leisure-Club/
 into your terminal. To cut ties with this GitHub repository, type git remote rm origin 
 into the terminal.</p>
 

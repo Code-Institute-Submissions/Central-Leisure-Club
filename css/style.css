@@ -12,7 +12,7 @@
 /* Body styling including fixed background image and font*/
 @media only screen and (min-width : 769px) {
 body{
-     background: linear-gradient( rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.52) ), url('../images/poolbackground.jpg') fixed no-repeat;
+     background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50) ), url('../images/poolbackground.jpg') fixed no-repeat;
      -webkit-background-size: cover;
      background-attachment: fixed;
     -moz-background-size: cover;
@@ -40,15 +40,26 @@ nav{
 
 /* Home page main section styling */
 
+.responsive-columns {
+    padding-top: 30px;
+  -webkit-column-count: 2;
+     -moz-column-count: 2;
+          column-count: 2;
+  -webkit-column-width: 300px;
+     -moz-column-width: 300px;
+          column-width: 300px;
+}
+
 .paragraph-home-page{
     font-size: 20px;
-    padding: 30px 30px;
+    padding-top: 0px;
+    padding-bottom: 10px;
     color: #fff;
 }
 
 #contact-us{
     text-decoration: none;
-    color: black;
+    color: #073A59;
     font-weight: bolder;
 }
 .ameninties-blocks{
@@ -100,8 +111,8 @@ footer{
 border: 3px solid white;
 border-radius: 1px;
 }
-@media(min-width:967px) {
-hr .horizontal-bar {
+@media only screen and (min-width : 991px){
+.horizontal-bar {
 display: none;
     }
 }
