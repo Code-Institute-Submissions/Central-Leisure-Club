@@ -37,7 +37,7 @@ I did not want all the information on one webpage as I felt there would be too m
 <a target="_blank" href="https://github.com/Gareth1980/Central-Leisure-Club/blob/master/wireframes/specialofferspage.jpg">Special Offers Page Wireframe</a>
 
 <h2>Background Image and Colours</h2>
-<p>I used the same background image for phones and another background image for screens larger than 768px throughout the web pages to keep the website consistant. I used https://color.adobe.com/create/color-wheel/ 
+<p>I used a background colour for mobile devices (as background image does not work on IOS) and background image for screens larger than 768px throughout the web pages to keep the website consistant. I used https://color.adobe.com/create/color-wheel/ 
 and selected the background image and this website picked out distinct colours from the image and used these colours throughout the web pages.</p>
 
 <h1>Features</h1>
@@ -82,11 +82,11 @@ are not filled in, the form will not submit. If all field are valid, the page wi
 institute page.<br>
 This site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on 
 multiple mobile devices (iPhone7: Chrome and Safari, iPad, Samsung Galaxy) to ensure compatibility 
-and responsiveness. I also used http://www.responsinator.com/ to test for responsiveness. During the testing phase, I realized that background image: fixed was not 
+and responsiveness. I also used the <a target="_blank" href="http://www.responsinator.com/">responsinator website</a> to test for responsiveness. During the testing phase, I realized that background image: fixed was not 
 compatible with iphone and samsung browsers. On Chrome and Safari in iOS, the background photo appeared zoomed-in 
 and blurry and was not a fixed image while scrolling. I went to tutor support, but they did not have a solution for this error.
 Background image: fixed, apparently costs a lot to mobile browsers, so it's been disabled per www.stackoverflow.com. I changed the the background image to a background color for small screen sizes.
-I used the website https://validator.w3.org/ to test for any code errors. All errors now corrected.
+I used the  <a target="_blank" href="https://validator.w3.org/">validator website</a> to test for any code errors. All errors now corrected.
 
 
 <h1>Deployment</h1>

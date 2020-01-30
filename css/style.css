@@ -12,7 +12,7 @@
 /* Body styling including fixed background image and font*/
 @media only screen and (min-width : 769px) {
 body{
-     background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50) ), url('../images/poolbackground.jpg') fixed no-repeat;
+     background: linear-gradient( rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20) ), url('../images/poolbackground.jpg') fixed no-repeat;
      -webkit-background-size: cover;
      background-attachment: fixed;
     -moz-background-size: cover;
@@ -40,6 +40,16 @@ nav{
 
 /* Home page main section styling */
 
+.box{
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+     box-sizing: inherit;
+     background-color: rgba(60, 60, 60, 0.6);
+     margin-top: 20px;
+     margin-bottom: 20px;
+     border-radius: 15px;
+}
+
 .responsive-columns {
     padding-top: 30px;
   -webkit-column-count: 2;
@@ -59,7 +69,7 @@ nav{
 
 #contact-us{
     text-decoration: none;
-    color: #073A59;
+    color: #4CE4FF;
     font-weight: bolder;
 }
 .ameninties-blocks{
@@ -68,7 +78,7 @@ nav{
     margin-bottom: 10px;
 }
 .ameninties-heading{
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(60, 60, 60, 0.6) ;
     border-radius: 20px;
     width: 370px;
     margin: auto;
@@ -79,7 +89,7 @@ nav{
     border-color: #fff;
 }
 .ameninties-design{
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: #7997F2;
     border-radius: 25px;
     margin: 5px 5px;
     width: 250px;
